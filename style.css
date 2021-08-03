@@ -587,7 +587,7 @@ a{
 		font-size: 0.8rem;
 	}  
     .modal-content{
-		width: 100%;
+		width: 95%;
 	}
   }
   
@@ -606,7 +606,7 @@ a{
   }
   @media  screen and (max-width:922px){
 	  .modal-body p span{
-		  padding-left: 20px;
+		  padding-left: 40px;
 	  }
   }
 
