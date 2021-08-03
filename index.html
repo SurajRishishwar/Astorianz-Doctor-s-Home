@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Doctor's Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <header class="header">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="logo">
+                  <img src="iconkonfidantee.png">
+               </div>
+               <button type="button" class="nav-toggler">
+                  <span></span>
+               </button>
+               <nav class="nav">
+                  <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Appointment</a></li>
+                     <li><a href="#">Patients</a></li>
+                     <li><a href="#">Messages</a></li>
+                     <li><a href="#">Colleagues</a></li>
+                     <li><button id="myBtn">Profile</button></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header> 
+      
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+         <!-- Modal content -->
+         <div class="modal-content">
+            <div class="modal-header">
+               <div>
+                  <span class="close">&times;</span>
+               </div>
+               <div class="userimg">
+                  <img src="userphoto.png" width="100px" height="100px">
+               </div>
+               <div>
+                  <h2>Dr. Smith</h2>
+               </div>
+            </div>
+            <div class="modal-body">
+               <p><span id="question">Name&nbsp; :&nbsp;&nbsp; </span> Dr. Smith Telko</p>
+               <p><span id="question">Speciality&nbsp; :&nbsp;&nbsp; </span> Psychatrist</p>
+               <p><span id="question">Working Days&nbsp; :&nbsp;&nbsp; </span>Monday - Saturday</p>
+               <p><span id="question">Timing&nbsp; :&nbsp;&nbsp; </span> 9:00 AM - 6:00 PM</p>
+               <p><span id="question">E-Mail Id&nbsp; :&nbsp;&nbsp; </span>SmithTelko@gmail.com</p>
+               <p><span id="question">Conatct No.&nbsp; :&nbsp;&nbsp; </span>7896541230</p>
+               <p><span id="question">Consulting Fees&nbsp; :&nbsp;&nbsp; </span>700 Rs per Person</p>
+              
+              
+            </div>
+            <div class="modal-footer">
+               <a href="profile.html" class="myButton">Edit Profile</a>
+            </div>
+         </div>
+      
+      </div>
+      <div class="cardscontainer">
+         <div class="cards">
+            <div class="cd"><span>1114</span><br>Total Patient</div>
+         </div>
+         <div class="cards">
+            <div class="cd"><span>60</span><br>Waiting</div>
+         </div>
+         <div class="cards">
+            <div class="cd"><span>967</span><br>Cured</div>
+         </div>
+         <div class="cards">
+            <div class="cd"><span>84</span><br>Under Care</div>
+         </div>
+      </div>
+      <div class="heading">
+         <div class="contentt">
+            <h3>Read Health Articles</h3>
+         </div>
+      </div>
+      <div class="sliderbox">
+         <div class="cardbox">
+            <img src="img1.jpg">
+         </div>
+         <div class="cardbox">
+            <img src="img2.jpg">
+         </div>
+         <div class="cardbox">
+            <img src="img3.jpg">
+         </div> 
+         <div class="cardbox">
+            <img src="img2.jpg">
+         </div> 
+         <div class="cardbox">
+            <img src="img1.jpg">
+         </div> 
+         <div class="cardbox">
+            <img src="img3.jpg">
+         </div> 
+      </div>
+      
+      <div class="fortwo">
+         <div class="contenttappointment">
+            <div class="heading">
+               <div class="contentt">
+                  <h3>Request for Appointment</h3>
+               </div>
+            </div>
+            <div class="appointment">
+               <div class="apphead">
+                  <table>
+                     <tr>
+                     <th>S.No</th>
+                     <th>Date</th>
+                     <th>Name</th>
+                     <th>Add</th>
+                     <th>Remove</th>
+                     </tr>
+                  
+                     <tr>
+                     <td>1.</td>
+                     <td>22/05/2021</td>
+                     <td>Jenny Rous</td>
+                     <td>+</td>
+                     <td>X</td>
+                     </tr>
+                     
+                     <tr> 
+                        <td>2.</td>
+                        <td>22/05/2021</td>
+                        <td>Jenny Rous</td>
+                        <td>+</td>
+                        <td>X</td>
+                     </tr>
+                     <tr> 
+                       
+                     <td>3.</td>
+                     <td>22/05/2021</td>
+                     <td>Jenny Rous</td>
+                     <td>+</td>
+                     <td>X</td>
+                     </tr>
+                  
+                     <tr> 
+                        <td>4.</td>
+                        <td>22/05/2021</td>
+                        <td>Jenny Rous</td>
+                        <td>+</td>
+                        <td>X</td>
+                     </tr>
+                     <tr> 
+                        <td>5.</td>
+                        <td>22/05/2021</td>
+                        <td>Jenny Rous</td>
+                        <td>+</td>
+                        <td>X</td>
+                     </tr>
+                     <tr> 
+                        <td>6.</td>
+                        <td>22/05/2021</td>
+                        <td>Jenny Rous</td>
+                        <td>+</td>
+                        <td>X</td>
+                     </tr>
+                  
+                  </table>
+              </div>  
+            </div>
+            <div class="btn1">
+               <div class="btn2">
+                  <h5>View More</h5>
+               </div>
+            </div>
+            
+         </div>
+         <div class="contenttappointment">
+            <div class="heading">
+               <div class="contentt">
+                  <h3>Queue Appointment</h3>
+               </div>
+            </div>
+            <div class="appointment">
+               <div class="apphead">
+                  <table>
+                     <tr>
+                     <th>S.No</th>
+                     <th>Date</th>
+                     <th>Time</th>
+                     <th>Patient ID</th>
+                  
+                     <tr>
+                     <td>1.</td>
+                     <td>12/09/2021</td>
+                     <td>8:00 AM</td>
+                     <td>147852</td>
+                     </tr>
+                     
+                     <tr> 
+                        <td>2.</td>
+                        <td>12/09/2021</td>
+                        <td>8:00 AM</td>
+                        <td>147852</td>
+                        </tr>
+                     <tr>
+                        <td>3.</td>
+                        <td>12/09/2021</td>
+                        <td>8:00 AM</td>
+                        <td>147852</td>
+                        
+                     </tr>
+                  
+                     <tr> 
+                        <td>4.</td>
+                        <td>12/09/2021</td>
+                        <td>8:00 AM</td>
+                        <td>147852</td>
+                        
+                     </tr>
+                     <tr> 
+                        <td>5.</td>
+                        <td>12/09/2021</td>
+                        <td>8:00 AM</td>
+                        <td>147852</td>
+                         </tr>
+                     <tr> 
+                        <td>6.</td>
+                        <td>12/09/2021</td>
+                        <td>8:00 AM</td>
+                        <td>147852</td>
+                        
+                     </tr>
+                  
+                  </table>
+              </div>  
+            </div>
+            <div class="btn1">
+               <div class="btn2">
+                  <h5>View More</h5>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+      
+      
+      <div class="patienthistory">
+         
+         <div class="head">
+            <div class="heading">
+               <div class="contentt">
+                  <h3>Patient History</h3>
+               </div>
+            </div>
+            <table>
+               <tr>
+               <th>S.No</th>
+               <th>Patient ID</th>
+               <th>Gender</th>
+               <th>Disease</th>
+               <th>Date</th>
+               <th>Status</th>
+            
+               <tr>
+               <td>1.</td>
+               <td>1122</td>
+               <td>Male</td>
+               <td>Depression</td>
+               <td>22/11/20</td>
+               <td>Cured</td>
+               </tr>
+               
+               <tr> 
+                  <td>2.</td>
+                  <td>1122</td>
+                  <td>Male</td>
+                  <td>Depression</td>
+                  <td>22/11/20</td>
+                  <td>Cured</td>
+               </tr>
+               <tr> 
+                  <td>3.</td>
+                  <td>1122</td>
+                  <td>Male</td>
+                  <td>Depression</td>
+                  <td>22/11/20</td>
+                  <td>Cured</td>
+               </tr>
+            
+               <tr> 
+                  <td>4.</td>
+                  <td>1122</td>
+                  <td>Male</td>
+                  <td>Depression</td>
+                  <td>22/11/20</td>
+                  <td>Cured</td>
+               </tr>
+               <tr> 
+                  <td>5.</td>
+                  <td>1122</td>
+                  <td>Male</td>
+                  <td>Depression</td>
+                  <td>22/11/20</td>
+                  <td>Cured</td>
+               </tr>
+               <tr> 
+                  <td>6.</td>
+                  <td>1122</td>
+                  <td>Male</td>
+                  <td>Depression</td>
+                  <td>22/11/20</td>
+                  <td>Cured</td>
+               </tr>
+            
+            </table>
+            <div class="btn1">
+               <div class="btn2">
+                  <h5>View More</h5>
+               </div>
+            </div>
+           
+        </div>  
+     
+      </div>
+      <div class="footer">
+
+      </div>
+      <div class="help">
+         <div class="popup" onclick="myFunction()"> ?
+            <span class="popuptext" id="myPopup"><a  href="Contactus.html">Need Help!</a></span>
+          </div>
+      </div>
+         
+    <script>
+         // When the user clicks on div, open the popup
+         function myFunction() {
+         var popup = document.getElementById("myPopup");
+         popup.classList.toggle("show");
+         }
+         // Get the modal
+         var modal = document.getElementById("myModal");
+         
+         // Get the button that opens the modal
+         var btn = document.getElementById("myBtn");
+         
+         // Get the <span> element that closes the modal
+         var span = document.getElementsByClassName("close")[0];
+         
+         // When the user clicks the button, open the modal 
+         btn.onclick = function() {
+         modal.style.display = "block";
+         }
+         
+         // When the user clicks on <span> (x), close the modal
+         span.onclick = function() {
+         modal.style.display = "none";
+         }
+         
+         // When the user clicks anywhere outside of the modal, close it
+         window.onclick = function(event) {
+         if (event.target == modal) {
+            modal.style.display = "none";
+         }
+         }
+       </script>
+      <script src="jsforindex.js"></script>
+   </body>
+</html>
