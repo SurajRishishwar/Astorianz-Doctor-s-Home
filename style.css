@@ -602,11 +602,11 @@ a{
   }
   .modal-body p span{
 	  font-weight: bold;
-	  padding-left: 6px;
+	  padding-left: 80px;
   }
   @media  screen and (max-width:922px){
 	  .modal-body p span{
-		  padding-left: 50px;
+		  padding-left: 6px;
 	  }
   }
 
