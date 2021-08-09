@@ -602,7 +602,7 @@ a{
   }
   .modal-body p span{
 	  font-weight: bold;
-	  padding-left: 80px;
+	  padding-left: 6px;
   }
   @media  screen and (max-width:922px){
 	  .modal-body p span{
